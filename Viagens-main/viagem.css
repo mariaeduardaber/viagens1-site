@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+body{
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+}
+
+.fundo{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 20px;
+}
+
+
+.logo-texto{
+    font-size: 23px;
+    position: relative;
+    left: 30px;
+}
+
+.navegador-lista{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin: 1px;
+}
+
+.navegador-lista li{
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(17, 17, 233, 0.925);
+    border: 1px solid rgba(17, 17, 233, 0.925);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.navegador-lista li:hover{
+    color: white;
+    background-color: rgb(26, 26, 138);
+    border: rgb(26, 26, 138);
+}
+
+.Ondevai{
+    display: flex;
+}
+
+.Ondevai label{
+  color: white;
+}
+
+.img-form{
+    background-image: url(imagem1.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.form-header{
+    background-color: rgba(17, 17, 233, 0.900);
+    border: 1px solid rgba(17, 17, 233, 0.900);
+    border-radius: 8px;
+    height: 18vh;
+    margin: 8px;
+    border-radius: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.ida-e-volta{
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.Ondevai{
+    padding-left: 8px;
+    padding-right: 8px
+}
+
+.ida{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ida:hover{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+
+.entradaDeInformacao{
+    height: 20px;
+}
+
+.botao{
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+}
+
+.botao:hover{
+    border: 1px solid rgb(255, 93, 34);
+    background-color:rgb(255, 93, 34);
+}
+
+.form1{
+    padding-top: 10px;
+}
+
+.promocoes{
+    display: flex ;
+}
+
+.promo{
+    display: flex;
+    box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+    margin: 15px;
+}
+
+.icone-promo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.texto-promo{
+    font-size: 20px;
+}
+
+.promocoes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.promo{
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.compre-viagens{
+    height: 100vh;
+}
+
+.texto-precos{
+    padding-left: 10px;
+}
+
+.caixa {
+    padding: 10px 20px;
+}
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top h1 {
+    font-size: 30px;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nacional .card:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("foz.png");
+  }
+  .nacional .card:nth-child(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("riodejaneiro.jpg");
+  }
+  .nacional .card:nth-child(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("jalapao.jpg");
+  }
+  .nacional .card:nth-child(4) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("porto.jpeg");
+  }
+  .nacional .card:nth-child(5) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("lencois.jpg");
+  }
+  .internacional .card:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("ssa-0.jpg");
+  }
+  #cards_internacional {
+    display: none;
+  }
+
+  .internacional .card:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("peru.jpg");
+  }
+  .internacional .card:nth-child(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("republica.jpg");
+  }
+  .internacional .card:nth-child(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("japao.jpg");
+  }
+  .internacional .card:nth-child(4) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("espanha.jpg");
+  }
+  .internacional .card:nth-child(5) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("africa.png");
+  }
+  .cards .card {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .cards .card h1 {
+    font-size: 23px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .cards .card .badge {
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 3px;
+    top: 15px;
+    right: -15px;
+    background: orange;
+  }
+  .buttons .btn {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 20px;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 10px;
+    text-transform: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: orangered;
+    color: white;
+  }
+
+  .card h1{
+    text-align: center;
+  }
+
+  .card h2{
+    text-align: center;
+  }
+
+  .botao-compre{
+    border: 2px solid orangered;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .botao-compre:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  .card{
+    box-shadow: rgb(37 37 39 / 60%) 0.5rem 0.5rem 2rem 0px;
+  }
+
+  .imagem-oferta{
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(india.jpg);
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;  
+  }
+
+.compre-ofertas{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.outras-ofertas{
+    display: flex;
+    justify-content: center;
+}
+
+.compre-ofertas1{
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;  
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(orlando.jpg) ;
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;  
+    border-radius: 10px;
+}
+.compre-ofertas2{
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;  
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(belohorizonte.jpg) ;
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;  
+    border-radius: 10px;
+}
+.compre-ofertas3{
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;  
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(paris.jpg) ;
+    margin-left: 1rem;
+    height: 250px;
+    width: 250px;  
+    border-radius: 10px;
+}
+
+.h1-oferta{
+    font-size: 23px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.outras-ofertas-titulo{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    text-align: center;
+}
+
+.mais-procurados-titulo{
+  text-align: center;
+}
+
+.mais-procurados{
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.h5-title{
+  font-size: 30px;
+}
+
+.rodape{
+  margin-top: 5px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+}
+
+.meio-footer{
+  display: flex;
+}
+
+.nome-rodape{
+  padding-left: 8px;
+  font-size: 23px;
+}
+
+
+@media (min-width:300px) and (max-width: 750px){
+    .promocoes{
+        display: block;
+    }
+    .top{
+        display: block;
+    }
+    .nacional{
+      display: flex;
+      flex-wrap: wrap;  
+    }
+    .internacional{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .outras-ofertas{
+      display: block;
+    }
+    .outras-ofertas-titulo{
+      text-align: left;
+    }
+    .text h1{
+      position: relative;
+    }
+    .rodape{
+      height: 100%;
+      width: 100%;
+    }
+    .img-form{
+      background-image: none;
+    }
+}
+
+@media (max-width: 750px){
+  .Ondevai{
+    flex-direction: column;
+  }
+  .form1{
+    flex-direction: column;
+  }
+}
